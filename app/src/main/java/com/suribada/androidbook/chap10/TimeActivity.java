@@ -17,7 +17,7 @@ import android.widget.Toast;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 15. 10. 22..
+ *  Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class TimeActivity extends Activity {
 

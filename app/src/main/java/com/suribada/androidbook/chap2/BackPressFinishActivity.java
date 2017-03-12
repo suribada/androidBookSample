@@ -8,7 +8,6 @@ import android.widget.Toast;
 /**
  * Created by Noh.Jaechun on 2017. 2. 24..
  */
-
 public class BackPressFinishActivity extends Activity {
 
 	private Handler handler = new Handler();

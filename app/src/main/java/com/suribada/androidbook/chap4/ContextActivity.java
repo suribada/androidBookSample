@@ -10,17 +10,18 @@ import com.suribada.androidbook.R;
 /**
  * Created by Noh.Jaechun on 2017. 3. 2..
  */
-
 public class ContextActivity extends Activity {
+
+	private static final String TAG = "ContextActivity";
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		statusView = (TextView) findViewById(R.id.status_view);
-		Log.d("suribada", (statusView.getContext() == this));
-		Log.d("suribada", (statusView.getContext() == getBaseContext()));
-		Log.d("suribada", (statusView.getContext() ==
+		Log.d(TAG, (statusView.getContext() == this));
+		Log.d(TAG, (statusView.getContext() == getBaseContext()));
+		Log.d(TAG, (statusView.getContext() ==
 			getApplicationContext()));
 	}
 

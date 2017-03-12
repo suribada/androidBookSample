@@ -3,9 +3,12 @@ package com.suribada.androidbook.chap11;
 import android.content.Context;
 import android.util.Log;
 
-import com.naver.android.sample.R;
-
+/**
+ *  Created by Noh.Jaechun on 2017. 3. 2..
+ */
 public class CalendarManager {
+
+	private static final String TAG = "CalendarManager";
 
 	private static final Object lock = new Object();
 	private static CalendarManager instance;
@@ -13,7 +16,7 @@ public class CalendarManager {
 	public static CalendarManager getInstance(Context context) {
 		synchronized (lock) {
 			if (instance == null) {
-				Log.d("suribada", "instance is null");
+				Log.d(TAG, "instance is null");
 				instance = new CalendarManager(context);
 				//instance = new CalendarManager(context.getApplicationContext());
 			}
@@ -33,7 +36,7 @@ public class CalendarManager {
 	
 	@Override
 	protected void finalize() throws Throwable {
-		Log.d("suribada", "CalendarManager finalinze");
+		Log.d(TAG, "CalendarManager finalinze");
 		super.finalize();
 	}
 }

@@ -3,7 +3,7 @@ package com.suribada.androidbook.chap5;
 import android.location.Location;
 
 /**
- * Created by nhn on 15. 12. 23..
+ * Created by Noh.Jaechun on 15. 12. 23..
  */
 public class LocationRepository {
 

@@ -10,9 +10,11 @@ import android.view.View;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 15. 9. 2..
+ *  Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class GcProblemActivity extends Activity {
+
+    private static final String TAG = "GcProblemActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +45,7 @@ public class GcProblemActivity extends Activity {
 		Runtime runtime = Runtime.getRuntime();
 		long dalvikMax = runtime.maxMemory();
 		long dalvikUsed = runtime.totalMemory() - runtime.freeMemory();
-		Log.d("suribada", "davik max=" + dalvikMax + ", used=" + dalvikUsed);
+		Log.d(TAG, "davik max=" + dalvikMax + ", used=" + dalvikUsed);
 	}
 
 

@@ -6,6 +6,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
 import android.util.Log;
 
+/**
+ * Created by Noh.Jaechun on 2017. 3. 2..
+ */
 public class DictionaryOpenHelper extends SQLiteOpenHelper {
 
 	private static final String TAG = "DictionaryOpenHelper";

@@ -18,7 +18,7 @@ import android.widget.Toast;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 15. 12. 22..
+ * Created by Noh.Jaechun on 15. 12. 22..
  */
 public class MessengerActivity extends Activity {
 

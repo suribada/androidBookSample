@@ -14,6 +14,8 @@ import com.suribada.androidbook.chap7.DictionaryOpenHelper.WordTable;
 /**
  * 일반적으로 DAO 패턴을 적용.
  * 컴포넌트에서는 DAO를 통해서 DB에 접근한다.
+ *
+ *  Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class WordDAO {
 	

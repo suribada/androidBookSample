@@ -3,7 +3,7 @@ package com.suribada.androidbook.chap5;
 import android.app.Activity;
 
 /**
- * Created by nhn on 15. 12. 23..
+ * Created by Noh.Jaechun on 15. 12. 23..
  */
 public class BaseActivity extends Activity {
 

@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 15. 8. 26..
+ * Created by Noh.Jaechun on 15. 8. 26..
  */
 public class PreferenceAnotherProcessActivity extends Activity {
 

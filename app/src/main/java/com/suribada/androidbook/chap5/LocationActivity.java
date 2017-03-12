@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 15. 12. 23..
+ * Created by Noh.Jaechun on 15. 12. 23..
  */
 public class LocationActivity extends BaseActivity {
 

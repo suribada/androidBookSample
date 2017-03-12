@@ -7,6 +7,9 @@ import android.os.ResultReceiver;
 import android.os.SystemClock;
 import android.util.Log;
 
+/**
+ * Created by Noh.Jaechun on 15. 12. 22..
+ */
 public class SyncService extends Service {
 
 	private static final String TAG = "SyncService";

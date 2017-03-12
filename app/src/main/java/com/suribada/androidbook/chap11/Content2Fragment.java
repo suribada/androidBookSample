@@ -13,8 +13,12 @@ import com.naver.android.sample.R;
 
 /**
  *   setter를 통해서 값을 전달하는 방법
+ *
+ *   Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class Content2Fragment extends Fragment {
+    
+    private static final String TAG = "Content2Fragment";
 
     private static final String LEFT = "left";
     private static final String RIGHT = "right";
@@ -30,13 +34,13 @@ public class Content2Fragment extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        Log.d("suribada", "onAttach");
+        Log.d(TAG, "onAttach");
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("suribada", "onCreate");
+        Log.d(TAG, "onCreate");
     }
 
     @Override
@@ -62,13 +66,13 @@ public class Content2Fragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.d("suribada", "onDestroy");
+        Log.d(TAG, "onDestroy");
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
-        Log.d("suribada", "onDetach");
+        Log.d(TAG, "onDetach");
     }
 
 }

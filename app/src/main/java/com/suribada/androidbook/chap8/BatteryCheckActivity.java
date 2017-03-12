@@ -12,7 +12,7 @@ import android.util.Log;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 16. 3. 2..
+ * Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class BatteryCheckActivity extends Activity {
 

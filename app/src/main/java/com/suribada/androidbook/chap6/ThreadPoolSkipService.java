@@ -13,7 +13,6 @@ import android.util.Log;
 /**
  * Created by Noh.Jaechun on 2017. 3. 2..
  */
-
 public class ThreadPoolSkipService extends Service {
 
 	private static final String TAG = "SleepThreadService";
@@ -25,7 +24,7 @@ public class ThreadPoolSkipService extends Service {
 
 	@Override
 	public void onCreate() {
-		Log.d("suribada", "Service onCreate");
+		Log.d(TAG, "Service onCreate");
 	}
 
 	@Override
@@ -34,13 +33,13 @@ public class ThreadPoolSkipService extends Service {
 
 			@Override
 			public void run() {
-				Log.d("suribada", "Thread start");
+				Log.d(TAG, "Thread start");
 				SystemClock.sleep(SLEEP_TIME);
-				Log.d("suribada", "10 seconds after");
+				Log.d(TAG, "10 seconds after");
 				SystemClock.sleep(SLEEP_TIME);
-				Log.d("suribada", "20 seconds after");
+				Log.d(TAG, "20 seconds after");
 				SystemClock.sleep(SLEEP_TIME);
-				Log.d("suribada", "30 seconds after");
+				Log.d(TAG, "30 seconds after");
 				stopSelf();
 			}
 		});

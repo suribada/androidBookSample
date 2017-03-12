@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 16. 1. 18..
+ * Created by Noh.Jaechun on 16. 1. 18..
  */
 public class ConfigurationChangedActivity extends Activity {
 
@@ -29,7 +29,7 @@ public class ConfigurationChangedActivity extends Activity {
 
 	@Override
 	public void onConfigurationChanged(Configuration newConfig) {
-		Log.d("suribada", "onConfigurationChanged=" + newConfig.orientation);
+		Log.d(TAG, "onConfigurationChanged=" + newConfig.orientation);
 		super.onConfigurationChanged(newConfig);
 		ViewGroup.LayoutParams lp = left.getLayoutParams();
 		lp.width = getResources().getDimensionPixelSize(R.dimen.left_width);

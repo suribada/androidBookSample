@@ -15,6 +15,8 @@ import android.util.Log;
 
 public class ShoppingApplication extends Application {
 
+	private static final String TAG = "ShoppingApplication";
+
 	private static ShoppingApplication application;
 	
 	private ArrayList<CartProduct> cart = new ArrayList<>();
@@ -24,7 +26,7 @@ public class ShoppingApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		Log.d("suribada", "Application onCreate");
+		Log.d(TAG, "Application onCreate");
 		application = this;
 		/* load application properties */
 		AppConfig.initialize(this);
@@ -114,7 +116,7 @@ public class ShoppingApplication extends Application {
 			Debug.MemoryInfo mi = new Debug.MemoryInfo();
 			Debug.getMemoryInfo(mi);
 			
-			Log.d("suribada", activity.getClass().getSimpleName()  + " " + method 
+			Log.d(TAG, activity.getClass().getSimpleName()  + " " + method
 					+ " phase MemoryInfo(total) pss=" + mi.getTotalPss() 
 					+ ", sharedDirty=" + mi.getTotalSharedDirty() 
 					+ ", privateDirty=" + mi.getTotalPrivateDirty() + "."); 

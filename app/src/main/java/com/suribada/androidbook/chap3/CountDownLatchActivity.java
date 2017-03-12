@@ -17,8 +17,9 @@ import android.widget.Toast;
 /**
  * Created by Noh.Jaechun on 2017. 3. 2..
  */
-
 public class CountDownLatchActivity extends Activity {
+
+	private static final String TAG = "CountDownLatchActivity";
 
 	private ArrayList<String> composedList = new ArrayList<>();
 
@@ -54,7 +55,7 @@ public class CountDownLatchActivity extends Activity {
 				//SystemClock.sleep(5000);
 				return Arrays.asList("east", "south", "west", "north");
 			} catch (Exception e) {
-				Log.d("suribada", "exception = " + e.getMessage());
+				Log.d(TAG, "exception = " + e.getMessage());
 				return null;
 			} finally {
 				try {

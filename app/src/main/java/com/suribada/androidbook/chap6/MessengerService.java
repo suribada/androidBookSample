@@ -20,9 +20,11 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 /**
- * Created by nhn on 15. 12. 22..
+ * Created by Noh.Jaechun on 15. 12. 22..
  */
 public class MessengerService extends Service {
+
+	private static final String TAG = "MessengerService" ;
 
 	/* input message */
 	public static final int MSG_REGISTER_CLIENT = 1;
@@ -117,13 +119,13 @@ public class MessengerService extends Service {
 	@Override
 	public boolean onUnbind(Intent intent) {
 		//return super.onUnbind(intent);
-		Log.d("suribada", "onUnbind");
+		Log.d(TAG, "onUnbind");
 		return true;
 	}
 
 	@Override
 	public void onRebind(Intent intent) {
-		Log.d("suribada", "onRebind");
+		Log.d(TAG, "onRebind");
 		//super.onRebind(intent);
 	}
 }

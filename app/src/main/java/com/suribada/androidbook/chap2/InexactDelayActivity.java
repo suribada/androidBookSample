@@ -19,7 +19,7 @@ public class InexactDelayActivity extends Activity {
 
 			@Override
 			public void run() {
-				Log.d("suribada", "200 delay");
+				Log.d(TAG, "200 delay");
 			}
 
 		}, 200);
@@ -28,7 +28,7 @@ public class InexactDelayActivity extends Activity {
 
 			@Override
 			public void run() {
-				Log.d("suribada", "just");
+				Log.d(TAG, "just");
 				SystemClock.sleep(500);
 			}
 

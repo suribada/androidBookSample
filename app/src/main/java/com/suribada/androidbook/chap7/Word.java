@@ -1,5 +1,8 @@
 package com.suribada.androidbook.chap7;
 
+/**
+ * Created by Noh.Jaechun on 2017. 3. 2..
+ */
 public class Word {
 
 	public long id;

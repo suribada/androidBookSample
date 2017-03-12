@@ -8,6 +8,8 @@ import com.naver.android.sample.R;
 
 /**
  *  디바이스 회전하면서 테스트 필요하다.
+ *
+ *  Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class FragmentReplaceActivity extends Activity {
 

@@ -15,6 +15,7 @@ import com.naver.android.sample.R;
 /**
  * 디바이스의 Volume 버튼에 따라 SeekBar를 이동해준다.
  *
+ * Created by Noh.Jaechun on 2017. 3. 2..
  */
 public class VolumeChangedActivity extends Activity {
 

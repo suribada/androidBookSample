@@ -10,8 +10,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.naver.android.sample.R;
-
+/**
+ * Created by Noh.Jaechun on 2017. 2. 24..
+ */
 public class TextRotationActivity extends Activity {
 
 	private TextView title;

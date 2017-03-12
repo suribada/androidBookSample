@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 public class CalendarRelatedActivity extends Activity {
 
+	private static final String TAG = "CalendarRelatedActivity";
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -18,13 +20,13 @@ public class CalendarRelatedActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		Log.d("suribada", "CalenderRelatedActivity onDestroy");
+		Log.d(TAG, "CalenderRelatedActivity onDestroy");
 		super.onDestroy();
 	}
 	
 	@Override
 	protected void finalize() throws Throwable {
-		Log.d("suribada", "CalenderRelatedActivity finalinze");
+		Log.d(TAG, "CalenderRelatedActivity finalinze");
 		super.finalize();
 	}
 	

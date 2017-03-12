@@ -10,7 +10,6 @@ import android.view.View;
 /**
  * Created by Noh.Jaechun on 2017. 3. 2..
  */
-
 public class AnrActivity extends Activity {
 
 	final static String TAG = "AnrActivity";

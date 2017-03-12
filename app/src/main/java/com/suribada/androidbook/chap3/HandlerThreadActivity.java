@@ -14,9 +14,11 @@ import android.view.View;
 import com.naver.android.sample.R;
 
 /**
- * Created by nhn on 15. 9. 4..
+ * Created by Noh.Jaechun on 15. 9. 4..
  */
 public class HandlerThreadActivity extends Activity {
+
+    private static final String TAG = "HandlerThreadActivty";
 
     private Handler favoriteHandler;
     private Looper favoriteLooper;
@@ -50,7 +52,7 @@ public class HandlerThreadActivity extends Activity {
 
             @Override
             public void handleMessage(Message msg) {
-                Log.d("suribada", "msg what=" + msg.what);
+                Log.d(TAG, "msg what=" + msg.what);
                 SystemClock.sleep(2000);
             }
 
@@ -61,13 +63,13 @@ public class HandlerThreadActivity extends Activity {
     private int i;
 
     public void onClickButton1(View view) {
-        Log.d("suribada", "i=" + (++i));
+        Log.d(TAG, "i=" + (++i));
         favoriteHandler.sendEmptyMessage(i);
     }
 
     @Override
     protected void finalize() throws Throwable {
-        Log.d("suribada", "finalize");
+        Log.d(TAG, "finalize");
         super.finalize();
     }
 }

@@ -8,6 +8,9 @@ import android.database.sqlite.SQLiteDatabase;
 
 import com.suribada.androidbook.chap7.DictionaryOpenHelper.WordTable;
 
+/**
+ *  Created by Noh.Jaechun on 2017. 3. 2..
+ */
 public class WordTransactionDAO {
 	
 	private DictionaryOpenHelper dbHelper;

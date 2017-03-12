@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.naver.android.sample.R;
 
+/**
+ * Created by Noh.Jaechun on 15. 12. 22..
+ */
 public class ResultReceiverActivity extends Activity {
 	
 	private View syncLayout, progressBar;
