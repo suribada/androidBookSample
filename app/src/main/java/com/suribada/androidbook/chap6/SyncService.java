@@ -24,7 +24,7 @@ public class SyncService extends Service {
 	}
 	
 	@Override
-	public int onStartCommand(Intent intent, int flags, int startId) {
+	public int onStartCommand(final Intent intent, int flags, int startId) {
 		new Thread(new Runnable() {
 			
 			@Override

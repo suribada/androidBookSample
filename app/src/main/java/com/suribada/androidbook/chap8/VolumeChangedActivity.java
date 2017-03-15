@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  * 디바이스의 Volume 버튼에 따라 SeekBar를 이동해준다.
@@ -25,7 +25,7 @@ public class VolumeChangedActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.show_seekbar);
-		volumeSeekBar = (SeekBar)findViewById(R.id.volume_seekbar);
+		volumeSeekBar = (SeekBar) findViewById(R.id.volume_seekbar);
 		volumeSeekBar.setThumbOffset(12);
 		
 		final AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);		

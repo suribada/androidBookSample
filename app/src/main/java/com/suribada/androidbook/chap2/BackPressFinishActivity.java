@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
 
+import com.suribada.androidbook.R;
+
 /**
  * Created by Noh.Jaechun on 2017. 2. 24..
  */

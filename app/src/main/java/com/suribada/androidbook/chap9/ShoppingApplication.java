@@ -13,6 +13,8 @@ import android.os.Bundle;
 import android.os.Debug;
 import android.util.Log;
 
+import com.suribada.androidbook.chap6.SyncService;
+
 public class ShoppingApplication extends Application {
 
 	private static final String TAG = "ShoppingApplication";
@@ -32,7 +34,7 @@ public class ShoppingApplication extends Application {
 		AppConfig.initialize(this);
 		productRepository = new ProductRepository(this);
 		if (isDefaultProcess()) {
-			startService(new Intent(this, Service1.class));
+			startService(new Intent(this, SyncService.class));
 		}
 		startService(new Intent(this, CategoryUpdaterService.class));
 		registerActivityLifecycleCallbacks(activityLifecycleCallbacks);

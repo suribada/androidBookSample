@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  * Created by Noh.Jaechun on 15. 8. 26..
@@ -19,7 +19,7 @@ public class PreferenceAnotherProcessActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.one_button);
+        setContentView(R.layout.text_and_button);
     }
 
     public void onClickButton1(View view) {

@@ -15,7 +15,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  * Created by Noh.Jaechun on 15. 12. 22..
@@ -67,8 +67,8 @@ public class MessengerActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.two_buttons);
-		weather = (TextView) findViewById(R.id.title);
+		setContentView(R.layout.text_and_button);
+		weather = (TextView) findViewById(R.id.text);
 	}
 
 	@Override
@@ -101,11 +101,6 @@ public class MessengerActivity extends Activity {
 			} catch (RemoteException e) {
 			}
 		}
-	}
-
-	public void onClickButton2(View view) {
-		Intent intent = new Intent(this, MessengerActivity.class);
-		startActivity(intent);
 	}
 
 }

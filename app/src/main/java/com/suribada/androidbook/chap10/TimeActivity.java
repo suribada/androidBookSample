@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  *  Created by Noh.Jaechun on 2017. 3. 2..

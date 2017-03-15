@@ -3,7 +3,7 @@ package com.suribada.androidbook.chap5;
 import android.location.Location;
 import android.os.Bundle;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  * Created by Noh.Jaechun on 15. 12. 23..
@@ -16,7 +16,7 @@ public class LocationActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.one_button);
+		setContentView(R.layout.status_display);
 		locationRepository = new LocationRepository();
 	}
 

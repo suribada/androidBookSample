@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  * Created by Noh.Jaechun on 2016. 10. 10..

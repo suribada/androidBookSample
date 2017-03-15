@@ -11,7 +11,7 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.View;
 
-import com.naver.android.sample.R;
+import com.suribada.androidbook.R;
 
 /**
  * Created by Noh.Jaechun on 15. 9. 4..
@@ -26,7 +26,7 @@ public class HandlerThreadActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.one_button);
+        setContentView(R.layout.text_and_button);
         HandlerThread handlerThread = new HandlerThread("Favorite Processing Thread") {
 
             @Override

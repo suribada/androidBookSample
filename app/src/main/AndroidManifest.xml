@@ -10,10 +10,24 @@
 		<activity android:name=".MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
-
+				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
+
+		<activity android:name=".chap2.AnrActivity" android:label="@string/activity_anr">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap2.BackPressFinishActivity" android:label="@string/activity_anr">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+
 	</application>
 
 </manifest>

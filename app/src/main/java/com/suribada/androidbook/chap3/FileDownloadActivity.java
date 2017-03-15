@@ -17,6 +17,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.suribada.androidbook.R;
+
 /**
  * Created by Noh.Jaechun on 2017. 3. 2..
  */

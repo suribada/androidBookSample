@@ -1,18 +1,22 @@
 package com.suribada.androidbook.chap3;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.CountDownLatch;
-
 import android.app.Activity;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v4.os.AsyncTaskCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.suribada.androidbook.R;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by Noh.Jaechun on 2017. 3. 2..
@@ -21,9 +25,12 @@ public class CountDownLatchActivity extends Activity {
 
 	private static final String TAG = "CountDownLatchActivity";
 
+	private TextView title;
+
 	private ArrayList<String> composedList = new ArrayList<>();
 
 	private CountDownLatch latch = new CountDownLatch(1);
+
 
 	private class AsyncTaskA extends AsyncTask<Void, Void, List<String>> {
 
@@ -73,6 +80,13 @@ public class CountDownLatchActivity extends Activity {
 			}
 		}
 
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.text_and_button);
+		title = (TextView) findViewById(R.id.text);
 	}
 
 	public void onClickButton2(View view) {
