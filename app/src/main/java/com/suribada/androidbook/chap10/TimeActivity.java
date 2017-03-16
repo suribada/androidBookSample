@@ -26,7 +26,7 @@ public class TimeActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.three_buttons);
+        setContentView(R.layout.text_and_three_buttons);
 		title = (TextView) findViewById(R.id.title);
 		registerReceiver(receiver, new IntentFilter(Intent.ACTION_SCREEN_ON));
     }

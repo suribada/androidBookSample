@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.naver.android.sample.R;
-
 /**
  *   setter를 통해서 값을 전달하는 방법
  *

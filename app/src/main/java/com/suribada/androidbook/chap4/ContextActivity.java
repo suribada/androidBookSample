@@ -19,7 +19,7 @@ public class ContextActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.text_and_button);
+		setContentView(R.layout.status_display);
 		statusView = (TextView) findViewById(R.id.status_view);
 		Log.d(TAG, "first=" + (statusView.getContext() == this));
 		Log.d(TAG, "second=" + (statusView.getContext() == getBaseContext()));

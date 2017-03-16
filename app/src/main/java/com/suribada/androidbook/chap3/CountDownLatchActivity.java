@@ -86,7 +86,7 @@ public class CountDownLatchActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.text_and_button);
-		title = (TextView) findViewById(R.id.text);
+		title = (TextView) findViewById(R.id.title);
 	}
 
 	public void onClickButton2(View view) {

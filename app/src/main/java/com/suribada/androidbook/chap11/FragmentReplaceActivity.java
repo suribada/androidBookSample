@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.naver.android.sample.R;
-
 /**
  *  디바이스 회전하면서 테스트 필요하다.
  *

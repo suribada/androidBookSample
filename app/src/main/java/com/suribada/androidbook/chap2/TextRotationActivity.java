@@ -19,7 +19,7 @@ public class TextRotationActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.text_and_button);
-		text = (TextView) findViewById(R.id.text);
+		text = (TextView) findViewById(R.id.title);
 	}
 	
 	/** 

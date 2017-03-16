@@ -3,6 +3,8 @@ package com.suribada.androidbook.chap11;
 import android.content.Context;
 import android.util.Log;
 
+import com.suribada.androidbook.R;
+
 /**
  *  Created by Noh.Jaechun on 2017. 3. 2..
  */

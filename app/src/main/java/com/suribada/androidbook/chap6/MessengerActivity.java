@@ -68,7 +68,7 @@ public class MessengerActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.text_and_button);
-		weather = (TextView) findViewById(R.id.text);
+		weather = (TextView) findViewById(R.id.title);
 	}
 
 	@Override

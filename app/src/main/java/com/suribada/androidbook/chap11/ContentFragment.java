@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.naver.android.sample.R;
-
 /**
  *  Developer 사이트나 샘플에서 일반적으로 사용하는 방식
  *
