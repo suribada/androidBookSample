@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.suribada.androidbook.R;
+
 /**
  *  Developer 사이트나 샘플에서 일반적으로 사용하는 방식
  *
@@ -46,8 +48,8 @@ public class ContentFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.content_result, container, false);
-        TextView result = (TextView) view.findViewById(R.id.result);
+        View view = inflater.inflate(R.layout.status_display, container, false);
+        TextView result = (TextView) view.findViewById(R.id.status);
         int sum = getArguments().getInt(LEFT) + getArguments().getInt(RIGHT);
         result.setText("결과1=" + sum);
         return view;

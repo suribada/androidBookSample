@@ -16,131 +16,130 @@
 			</intent-filter>
 		</activity>
 
-		<activity android:name=".chap2.AnrActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap2.AnrActivity" android:label="2.ANR 발생">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.BackPressFinishActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap2.BackPressFinishActivity" android:label="2.백키종료">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.HandlerRepeatActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap2.HandlerRepeatActivity" android:label="2.Handler 반복 작업">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.InexactDelayActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap2.InexactDelayActivity" android:label="2.부정확한 지연시간">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.TextRotationActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap2.TextRotationActivity" android:label="2.문자열 일정 주기 변경?">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap3.CountDownLatchActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap3.CountDownLatchActivity" android:label="3.AsyncTask 간 작업 순서">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap3.FileDownloadActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap3.FileDownloadActivity" android:label="3.파일 다운로드 AsyncTask">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap3.HandlerThreadActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap3.HandlerThreadActivity" android:label="3.HandlerThread 사용">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap4.ContextActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap4.ContextActivity" android:label="4.Context 확인">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.ConfigurationChangedActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.ConfigurationChangedActivity" android:label="5.구성 변경">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.ExcelActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.SchemeTestActivity" android:label="5.스킴 테스트">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.FrontControllerActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.FrontControllerActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.LocationActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.WordActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.PowerPointActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.ExcelActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.SchemeTestActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.PowerPointActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.WordActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap5.LocationActivity" android:label="5.생명주기 순서">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap6.MessengerActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<service android:name=".chap6.MessengerService"/>
-		<activity android:name=".chap6.ResultReceiverActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap6.MessengerActivity" android:label="6.Messenger 클라이언트">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
 		<service android:name=".chap6.MessengerService"/>
+		<activity android:name=".chap6.ResultReceiverActivity" android:label="6.ResultReceiver 클라이언트">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
 		<service android:name=".chap6.FlagSkipService"/>
 		<service android:name=".chap6.ThreadPoolSkipService"/>
-		<activity android:name=".chap7.DictionaryActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap7.DictionaryActivity" android:label="7.DB 작업">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap8.BatteryCheckActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap8.BatteryCheckActivity" android:label="8.배터리 상태 체크">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap8.VolumeChangedActivity" android:label="@string/activity_anr">
+		<activity android:name=".chap8.VolumeChangedActivity" android:label="9.Volume 변경 이벤트">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />

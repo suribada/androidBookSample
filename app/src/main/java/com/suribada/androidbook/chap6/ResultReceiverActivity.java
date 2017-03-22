@@ -8,6 +8,8 @@ import android.os.ResultReceiver;
 import android.view.View;
 import android.widget.TextView;
 
+import com.suribada.androidbook.R;
+
 /**
  * Created by Noh.Jaechun on 15. 12. 22..
  */

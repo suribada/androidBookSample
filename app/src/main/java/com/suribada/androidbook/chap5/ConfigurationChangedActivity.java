@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.suribada.androidbook.R;
+
 /**
  * Created by Noh.Jaechun on 16. 1. 18..
  */

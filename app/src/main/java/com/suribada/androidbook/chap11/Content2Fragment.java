@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.suribada.androidbook.R;
+
 /**
  *   setter를 통해서 값을 전달하는 방법
  *
@@ -43,8 +45,8 @@ public class Content2Fragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.content_result, container, false);
-        TextView result = (TextView) view.findViewById(R.id.result);
+        View view = inflater.inflate(R.layout.status_display, container, false);
+        TextView result = (TextView) view.findViewById(R.id.status);
         if (savedInstanceState != null) {
             left = savedInstanceState.getInt(LEFT);
             right = savedInstanceState.getInt(RIGHT);
