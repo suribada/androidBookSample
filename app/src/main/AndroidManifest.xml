@@ -16,175 +16,152 @@
 			</intent-filter>
 		</activity>
 
-		<activity android:name=".chap2.AnrActivity" android:label="2.ANR 발생">
+		<activity android:name=".chap2.AnrActivity" android:label="Chap2/ANR 발생">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.BackPressFinishActivity" android:label="2.백키종료">
+		<activity android:name=".chap2.BackPressFinishActivity" android:label="Chap2/백키종료">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.HandlerRepeatActivity" android:label="2.Handler 반복 작업">
+		<activity android:name=".chap2.HandlerRepeatActivity" android:label="Chap2/Handler 반복 작업">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.InexactDelayActivity" android:label="2.부정확한 지연시간">
+		<activity android:name=".chap2.InexactDelayActivity" android:label="Chap2/부정확한 지연시간">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap2.TextRotationActivity" android:label="2.문자열 일정 주기 변경?">
+		<activity android:name=".chap2.TextRotationActivity" android:label="Chap2/문자열 일정 주기 변경?">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap3.CountDownLatchActivity" android:label="3.AsyncTask 간 작업 순서">
+		<activity android:name=".chap3.CountDownLatchActivity" android:label="Chap3/AsyncTask 간 작업 순서">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="andrcom.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap3.FileDownloadActivity" android:label="3.파일 다운로드 AsyncTask">
+		<activity android:name=".chap3.FileDownloadActivity" android:label="Chap3/파일 다운로드 AsyncTask">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap3.HandlerThreadActivity" android:label="3.HandlerThread 사용">
+		<activity android:name=".chap3.HandlerThreadActivity" android:label="Chap3/HandlerThread 사용">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap4.ContextActivity" android:label="4.Context 확인">
+		<activity android:name=".chap4.ContextActivity" android:label="Chap4/Context 확인">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.ConfigurationChangedActivity" android:label="5.구성 변경">
+		<activity android:name=".chap5.ConfigurationChangedActivity" android:label="Chap5/구성 변경">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.SchemeTestActivity" android:label="5.스킴 테스트">
+		<activity android:name=".chap5.SchemeTestActivity" android:label="Chap5/스킴 테스트">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
 		<activity android:name=".chap5.FrontControllerActivity">
 			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="doc" />
+				<data android:scheme="xls" />
+				<data android:scheme="ppt" />
 			</intent-filter>
 		</activity>
 		<activity android:name=".chap5.WordActivity">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
 		</activity>
 		<activity android:name=".chap5.ExcelActivity">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
 		</activity>
 		<activity android:name=".chap5.PowerPointActivity">
+		</activity>
+		<activity android:name=".chap5.LocationActivity" android:label="Chap5/생명주기 순서">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap5.LocationActivity" android:label="5.생명주기 순서">
+		<activity android:name=".chap6.MessengerActivity" android:label="Chap6/Messenger 클라이언트">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap6.MessengerActivity" android:label="6.Messenger 클라이언트">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
 		<service android:name=".chap6.MessengerService"/>
-		<activity android:name=".chap6.ResultReceiverActivity" android:label="6.ResultReceiver 클라이언트">
+		<activity android:name=".chap6.ResultReceiverActivity" android:label="Chap6/ResultReceiver 클라이언트">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
 		<service android:name=".chap6.FlagSkipService"/>
 		<service android:name=".chap6.ThreadPoolSkipService"/>
-		<activity android:name=".chap7.DictionaryActivity" android:label="7.DB 작업">
+		<activity android:name=".chap7.DictionaryActivity" android:label="Chap7/DB 작업">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap8.BatteryCheckActivity" android:label="Chap8/배터리 상태 체크">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap8.VolumeChangedActivity" android:label="Chap9/Volume 변경 이벤트">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap9.PreferenceMultiProcessActivity" android:label="Chap9/여러 프로세스간 SharedPreference 공유">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap9.PreferenceAnotherProcessActivity">
+		</activity>
+		<activity android:name=".chap10.TimeActivity" android:label="Chap10/Deep Sleep 체크">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap11.GcProblemActivity" android:label="Chap11/Context가 포함된 싱글톤">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap8.BatteryCheckActivity" android:label="8.배터리 상태 체크">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
+		<activity android:name=".chap11.CalendarRelatedActivity">
 		</activity>
-		<activity android:name=".chap8.VolumeChangedActivity" android:label="9.Volume 변경 이벤트">
+		<activity android:name=".chap11.FragmentReplaceActivity" android:label="Chap11/Fragment 정적 생성">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap9.MyPreferenceActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap9.PreferenceAnotherProcessActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap9.PreferenceMultiProcessActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap10.TimeActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap11.CalendarRelatedActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap11.FragmentReplaceActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
-			</intent-filter>
-		</activity>
-		<activity android:name=".chap11.GcProblemActivity" android:label="@string/activity_anr">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
 

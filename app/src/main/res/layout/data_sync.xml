@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동기화 샘플" />
+    
+    <LinearLayout 
+        android:id="@+id/sync_layout"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+    	android:orientation="horizontal"
+    	android:visibility="gone">
+	    <!-- http://developer.android.com/reference/android/widget/ProgressBar.html 스타일은 여기 참고 -->
+	    <ProgressBar 
+	        android:id="@+id/progress_bar"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        style="@android:style/Widget.ProgressBar.Small"/>
+	    <TextView
+	        android:id="@+id/sync_message"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sync_progress" />
+	</LinearLayout>
+
+    <Button
+        android:id="@+id/sync_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동기화" 
+        android:onClick="onClickSync"/>
+
+</LinearLayout>

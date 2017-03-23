@@ -15,14 +15,6 @@
  */
 package com.suribada.androidbook;
 
-import android.app.ListActivity;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,7 +23,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import android.app.ListActivity;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
+
 public class MainActivity extends ListActivity {
+
+	private static final String CATEGORY_SAMPLE_CODE = "com.suribada.intent.category.SAMPLE_CODE";
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -47,10 +50,11 @@ public class MainActivity extends ListActivity {
 				new int[] { android.R.id.text1 }));
 		getListView().setTextFilterEnabled(true);
 	}
+
 	protected List<Map<String, Object>> getData(String prefix) {
 		List<Map<String, Object>> myData = new ArrayList<>();
 		Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
-		mainIntent.addCategory(Intent.CATEGORY_SAMPLE_CODE);
+		mainIntent.addCategory(CATEGORY_SAMPLE_CODE);
 		PackageManager pm = getPackageManager();
 		List<ResolveInfo> list = pm.queryIntentActivities(mainIntent, 0);
 		if (null == list)
@@ -127,7 +131,7 @@ public class MainActivity extends ListActivity {
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		Map<String, Object> map = (Map<String, Object>)l.getItemAtPosition(position);
 		Intent intent = new Intent((Intent) map.get("intent"));
-		intent.addCategory(Intent.CATEGORY_SAMPLE_CODE);
+		intent.addCategory(CATEGORY_SAMPLE_CODE);
 		startActivity(intent);
 	}
 }
