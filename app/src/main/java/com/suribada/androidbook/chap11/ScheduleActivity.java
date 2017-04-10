@@ -5,9 +5,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-public class CalendarRelatedActivity extends Activity {
+public class ScheduleActivity extends Activity {
 
-	private static final String TAG = "CalendarRelatedActivity";
+	private static final String TAG = "ScheduleActivity";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

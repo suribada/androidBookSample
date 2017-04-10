@@ -153,10 +153,10 @@
 		<activity android:name=".chap11.GcProblemActivity" android:label="Chap11/Context가 포함된 싱글톤">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.SAMPLE_CODE" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".chap11.CalendarRelatedActivity">
+		<activity android:name=".chap11.ScheduleActivity">
 		</activity>
 		<activity android:name=".chap11.FragmentReplaceActivity" android:label="Chap11/Fragment 정적 생성">
 			<intent-filter>

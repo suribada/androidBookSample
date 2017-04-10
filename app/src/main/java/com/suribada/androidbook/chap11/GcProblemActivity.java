@@ -23,7 +23,7 @@ public class GcProblemActivity extends Activity {
     }
 
     public void onClickButton1(View view) {
-        startActivity(new Intent(this, CalendarRelatedActivity.class));
+        startActivity(new Intent(this, ScheduleActivity.class));
     }
 
 	public void onClickButton2(View view) {

@@ -19,8 +19,8 @@ public class CalendarManager {
 		synchronized (lock) {
 			if (instance == null) {
 				Log.d(TAG, "instance is null");
-				instance = new CalendarManager(context);
-				//instance = new CalendarManager(context.getApplicationContext());
+				//instance = new CalendarManager(context);
+				instance = new CalendarManager(context.getApplicationContext());
 			}
 			return instance;
 		}
