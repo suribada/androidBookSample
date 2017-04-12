@@ -19,12 +19,12 @@ public class ContextActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.status_display);
+		setContentView(R.layout.simple_text);
 		statusView = (TextView) findViewById(R.id.status);
-		Log.d(TAG, "first=" + (statusView.getContext() == this));
-		Log.d(TAG, "second=" + (statusView.getContext() == getBaseContext()));
-		Log.d(TAG, "third=" + (statusView.getContext() == getApplicationContext()));
-		Log.d(TAG, "4th=" +(statusView.getContext() == getApplication()));
+		Log.d(TAG, "1st=" + (statusView.getContext() == this));
+		Log.d(TAG, "2nd=" + (statusView.getContext() == getBaseContext()));
+		Log.d(TAG, "3rd=" + (statusView.getContext() == getApplicationContext()));
+		Log.d(TAG, "4th=" + (statusView.getContext() == getApplication()));
 
 		Log.d(TAG, "5th=" + (getBaseContext() instanceof Activity)); // false가 나온다. 캐스팅하면 안 된다.
 		Log.d(TAG, "6th" + (getApplicationContext() == getApplication()));

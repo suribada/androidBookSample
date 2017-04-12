@@ -16,7 +16,7 @@ public class LocationActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.status_display);
+		setContentView(R.layout.simple_text);
 		locationRepository = new LocationRepository();
 	}
 

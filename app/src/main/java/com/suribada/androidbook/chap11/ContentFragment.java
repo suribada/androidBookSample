@@ -48,7 +48,7 @@ public class ContentFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.status_display, container, false);
+        View view = inflater.inflate(R.layout.simple_text, container, false);
         TextView result = (TextView) view.findViewById(R.id.status);
         int sum = getArguments().getInt(LEFT) + getArguments().getInt(RIGHT);
         result.setText("결과1=" + sum);
