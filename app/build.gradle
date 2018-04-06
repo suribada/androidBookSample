@@ -17,9 +17,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions 'phase'
+    productFlavors {
+        dev {
+            dimension 'phase'
+        }
+        real {
+            dimension 'phase'
+        }
+    }
 }
 
 dependencies {
     compile 'com.android.support:support-v4:24.1.0'
     compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'com.typesafe:config:1.2.1'
 }

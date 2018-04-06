@@ -16,7 +16,7 @@
 			</intent-filter>
 		</activity>
 
-		<activity android:name=".chap2.AnrActivity" android:label="Chap2/ANR 발생">
+		<activity android:name=".chap2.AnrActivity" android:process=":another" android:label="Chap2/ANR 발생" android:isolatedProcess="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
@@ -41,6 +41,12 @@
 			</intent-filter>
 		</activity>
 		<activity android:name=".chap2.TextRotationActivity" android:label="Chap2/문자열 일정 주기 변경?">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".chap3.ThreadPoolActivity" android:label="Chap3/스레드풀">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
@@ -159,6 +165,12 @@
 		<activity android:name=".chap11.ScheduleActivity">
 		</activity>
 		<activity android:name=".chap11.FragmentReplaceActivity" android:label="Chap11/Fragment 정적 생성">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".etc.ConfigActivity" android:label="Etc/Lightbend Config 사용">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
