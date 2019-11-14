@@ -103,6 +103,12 @@
 		</activity>
 		<activity android:name=".chap5.PowerPointActivity">
 		</activity>
+		<activity android:name=".chap5.DialogActivity" android:theme="@android:style/Theme.Holo.NoActionBar" android:label="Chap5/다이얼로그">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="com.suribada.intent.category.SAMPLE_CODE" />
+			</intent-filter>
+		</activity>
 		<activity android:name=".chap5.LocationActivity" android:label="Chap5/생명주기 순서">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
